@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="200" prefWidth="200">
+      <children>
+         <HBox prefHeight="245.0" prefWidth="245.0">
+            <children>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="245.0" stroke="WHITE" strokeType="INSIDE" width="245.0" />
+            </children>
+         </HBox>
+         <HBox prefHeight="244.0" prefWidth="245.0">
+            <children>
+               <GridPane prefHeight="245.0" prefWidth="245.0">
+                 <columnConstraints>
+                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                 </columnConstraints>
+                 <rowConstraints>
+                   <RowConstraints maxHeight="64.8214340209961" minHeight="9.921663284301758" prefHeight="34.5999755859375" vgrow="SOMETIMES" />
+                   <RowConstraints maxHeight="124.07833671569824" minHeight="10.0" prefHeight="79.2096176147461" vgrow="SOMETIMES" />
+                   <RowConstraints maxHeight="51.94447326660156" minHeight="10.0" prefHeight="35.01072692871094" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="52.08976745605469" minHeight="10.0" prefHeight="33.790382385253906" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="49.82081604003906" minHeight="10.0" prefHeight="46.98927307128906" vgrow="SOMETIMES" />
+                     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                 </rowConstraints>
+                  <children>
+                     <TextField fx:id="taskName" promptText="name..." style="-fx-background-color: transparent;">
+                        <font>
+                           <Font name="Apple Symbols" size="13.0" />
+                        </font></TextField>
+                     <TextField fx:id="taskDescrip" alignment="TOP_LEFT" prefHeight="110.0" prefWidth="200.0" promptText="description..." style="-fx-background-color: transparent;" GridPane.rowIndex="1">
+                        <font>
+                           <Font name="Apple Symbols" size="13.0" />
+                        </font></TextField>
+                     <TextField fx:id="day" prefHeight="51.0" prefWidth="245.0" promptText="day..." style="-fx-background-color: transparent;" GridPane.rowIndex="2">
+                        <font>
+                           <Font name="Apple Symbols" size="13.0" />
+                        </font></TextField>
+                     <HBox alignment="CENTER_LEFT" prefHeight="7.0" prefWidth="200.0" GridPane.rowIndex="4">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="28.0" stroke="TRANSPARENT" strokeType="INSIDE" width="9.0" />
+                           <RadioButton fx:id="statusRadio" mnemonicParsing="false" style="-fx-background-color: transaparent;" text="all done?">
+                              <font>
+                                 <Font name="Apple Symbols" size="13.0" />
+                              </font>
+                           </RadioButton>
+                        </children>
+                     </HBox>
+                     <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="5">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="26.0" stroke="TRANSPARENT" strokeType="INSIDE" width="9.0" />
+                           <Button fx:id="finalizeTask" mnemonicParsing="false" style="-fx-background-color: transparent;" text="add task">
+                              <font>
+                                 <Font name="Apple Symbols" size="13.0" />
+                              </font></Button>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="26.0" stroke="TRANSPARENT" strokeType="INSIDE" width="9.0" />
+                           <Button fx:id="cancel" mnemonicParsing="false" style="-fx-background-color: transparent;" text="cancel">
+                              <font>
+                                 <Font name="Apple Symbols" size="13.0" />
+                              </font></Button>
+                        </children>
+                     </HBox>
+                     <HBox alignment="CENTER_LEFT" prefHeight="7.0" prefWidth="200.0" GridPane.rowIndex="3">
+                        <children>
+                           <TextField fx:id="durationHour" prefHeight="41.0" prefWidth="37.0" promptText="___" style="-fx-background-color: transparent;">
+                              <font>
+                                 <Font name="Apple Symbols" size="13.0" />
+                              </font>
+                           </TextField>
+                           <Label prefHeight="17.0" prefWidth="31.0" text="hours">
+                              <font>
+                                 <Font name="Apple Symbols" size="13.0" />
+                              </font>
+                           </Label>
+                           <TextField fx:id="durationMin" prefHeight="41.0" prefWidth="37.0" promptText="___" style="-fx-background-color: transparent;">
+                              <font>
+                                 <Font name="Apple Symbols" size="13.0" />
+                              </font>
+                           </TextField>
+                           <Label prefHeight="17.0" prefWidth="41.0" text="minutes">
+                              <font>
+                                 <Font name="Apple Symbols" size="13.0" />
+                              </font>
+                           </Label>
+                        </children>
+                     </HBox>
+                  </children>
+               </GridPane>
+            </children>
+         </HBox>
+      </children></AnchorPane>
+</Scene>

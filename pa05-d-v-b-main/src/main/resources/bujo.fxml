@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="904.0" prefWidth="1280.0">
+      <children>
+         <HBox alignment="TOP_CENTER" layoutX="-3.0" prefHeight="896.0" prefWidth="1293.0">
+            <children>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="905.0" stroke="WHITE" strokeType="INSIDE" width="1292.0" />
+            </children>
+         </HBox>
+         <BorderPane layoutX="-1.0" prefHeight="907.0" prefWidth="1290.0">
+            <center>
+               <Pane prefHeight="663.0" prefWidth="1439.0" BorderPane.alignment="CENTER">
+                  <children>
+                     <HBox layoutX="43.0" layoutY="144.0" prefHeight="500.0" prefWidth="637.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="497.0" stroke="#d9baab" strokeType="INSIDE" strokeWidth="2.0" width="91.0" />
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="497.0" stroke="#d9baab" strokeType="INSIDE" strokeWidth="2.0" width="91.0" />
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="497.0" stroke="#d9baab" strokeType="INSIDE" strokeWidth="2.0" width="91.0" />
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="497.0" stroke="#d9baab" strokeType="INSIDE" strokeWidth="2.0" width="91.0" />
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="497.0" stroke="#d9baab" strokeType="INSIDE" strokeWidth="2.0" width="91.0" />
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="497.0" stroke="#d9baab" strokeType="INSIDE" strokeWidth="2.0" width="91.0" />
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="497.0" stroke="#d9baab" strokeType="INSIDE" strokeWidth="2.0" width="91.0" />
+                        </children>
+                     </HBox>
+                     <HBox layoutX="43.0" layoutY="143.0" prefHeight="65.0" prefWidth="639.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="67.0" stroke="#d9baab" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="2.0" width="637.0" />
+                        </children>
+                     </HBox>
+                     <HBox layoutX="43.0" layoutY="144.0" prefHeight="478.0" prefWidth="638.0">
+                        <children>
+                           <GridPane prefHeight="520.0" prefWidth="687.0">
+                             <columnConstraints>
+                                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                             </columnConstraints>
+                             <rowConstraints>
+                               <RowConstraints maxHeight="202.63760375976562" minHeight="10.0" prefHeight="64.41488647460938" vgrow="SOMETIMES" />
+                               <RowConstraints maxHeight="425.2801513671875" minHeight="10.0" prefHeight="414.0851135253906" vgrow="SOMETIMES" />
+                             </rowConstraints>
+                              <children>
+                                 <Label fx:id="sunLabel" text="SUN" textFill="#977959" GridPane.halignment="CENTER">
+                                    <font>
+                                       <Font name="BM JUA OTF" size="26.0" />
+                                    </font>
+                                 </Label>
+                                 <Label fx:id="monLabel" text="MON" textFill="#977959" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                                    <font>
+                                       <Font name="BM JUA OTF" size="26.0" />
+                                    </font>
+                                 </Label>
+                                 <Label fx:id="tueLabel" text="TUE" textFill="#977959" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+                                    <font>
+                                       <Font name="BM JUA OTF" size="26.0" />
+                                    </font>
+                                 </Label>
+                                 <Label fx:id="wedLabel" text="WED" textFill="#977959" GridPane.columnIndex="3" GridPane.halignment="CENTER">
+                                    <font>
+                                       <Font name="BM JUA OTF" size="26.0" />
+                                    </font>
+                                 </Label>
+                                 <Label fx:id="thuLabel" text="THU" textFill="#977959" GridPane.columnIndex="4" GridPane.halignment="CENTER">
+                                    <font>
+                                       <Font name="BM JUA OTF" size="26.0" />
+                                    </font>
+                                 </Label>
+                                 <Label fx:id="friLabel" text="FRI" textFill="#977959" GridPane.columnIndex="5" GridPane.halignment="CENTER">
+                                    <font>
+                                       <Font name="BM JUA OTF" size="26.0" />
+                                    </font>
+                                 </Label>
+                                 <Label fx:id="satLabel" text="SAT" textFill="#977959" GridPane.columnIndex="6" GridPane.halignment="CENTER">
+                                    <font>
+                                       <Font name="BM JUA OTF" size="26.0" />
+                                    </font>
+                                 </Label>
+                                 <VBox fx:id="sunPane" prefHeight="415.0" prefWidth="73.0" GridPane.rowIndex="1">
+                                    <padding>
+                                       <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                                    </padding></VBox>
+                                 <VBox fx:id="monPane" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                    <padding>
+                                       <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                                    </padding></VBox>
+                                 <VBox fx:id="tuePane" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                    <padding>
+                                       <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                                    </padding></VBox>
+                                 <VBox fx:id="wedPane" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                    <padding>
+                                       <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                                    </padding></VBox>
+                                 <VBox fx:id="thuPane" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                                    <padding>
+                                       <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                                    </padding></VBox>
+                                 <VBox fx:id="friPane" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                                    <padding>
+                                       <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                                    </padding></VBox>
+                                 <VBox fx:id="satPane" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                                    <padding>
+                                       <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                                    </padding></VBox>
+                              </children>
+                           </GridPane>
+                        </children>
+                     </HBox>
+                     <HBox alignment="BOTTOM_RIGHT" layoutX="40.0" prefHeight="124.0" prefWidth="641.0">
+                        <children>
+                           <Rectangle fx:id="addTaskRect" arcHeight="5.0" arcWidth="5.0" fill="#ffe6dd" height="29.0" stroke="#e5c1c100" strokeType="INSIDE" width="84.0" />
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe6de00" height="22.0" stroke="#e5c1c100" strokeType="INSIDE" width="8.0" />
+                           <Rectangle fx:id="addEventRect" arcHeight="5.0" arcWidth="5.0" fill="#ffe6dd" height="29.0" stroke="#e5c1c100" strokeType="INSIDE" width="95.0" />
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe6de00" height="22.0" stroke="#e5c1c100" strokeType="INSIDE" width="8.0" />
+                           <Rectangle fx:id="setLimitRect" arcHeight="5.0" arcWidth="5.0" fill="#ffe6dd" height="29.0" stroke="#e5c1c100" strokeType="INSIDE" width="82.0" />
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe6de00" height="22.0" stroke="#e5c1c100" strokeType="INSIDE" width="8.0" />
+                           <Rectangle fx:id="saveRect" arcHeight="5.0" arcWidth="5.0" fill="#ffe6dd" height="29.0" stroke="#e5c1c100" strokeType="INSIDE" width="51.0" />
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe6de00" height="22.0" stroke="#e5c1c100" strokeType="INSIDE" width="8.0" />
+                           <Rectangle fx:id="editRect" arcHeight="5.0" arcWidth="5.0" fill="#ffe6dd" height="29.0" stroke="#e5c1c100" strokeType="INSIDE" width="54.0" />
+                        </children>
+                     </HBox>
+                     <HBox alignment="BOTTOM_RIGHT" layoutX="40.0" prefHeight="124.0" prefWidth="640.0">
+                        <children>
+                           <Button fx:id="addTask" alignment="BOTTOM_RIGHT" blendMode="HARD_LIGHT" mnemonicParsing="false" prefHeight="26.0" prefWidth="99.0" style="-fx-background-color: transparent;" text="add task" textFill="#4a3c2f">
+                              <font>
+                                 <Font name="BM JUA OTF" size="18.0" />
+                              </font>
+                           </Button>
+                           <Button fx:id="addEvent" alignment="BOTTOM_RIGHT" blendMode="HARD_LIGHT" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" style="-fx-background-color: transparent;" text="add event" textFill="#4a3c2f">
+                              <font>
+                                 <Font name="BM JUA OTF" size="18.0" />
+                              </font>
+                           </Button>
+                           <Button fx:id="setLimit" alignment="BOTTOM_RIGHT" blendMode="HARD_LIGHT" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" style="-fx-background-color: transparent;" text="set limit" textFill="#4a3c2f">
+                              <font>
+                                 <Font name="BM JUA OTF" size="18.0" />
+                              </font>
+                           </Button>
+                           <Button fx:id="save" alignment="BOTTOM_RIGHT" blendMode="HARD_LIGHT" mnemonicParsing="false" prefHeight="33.0" prefWidth="63.0" style="-fx-background-color: transparent;" text="save" textFill="#4a3c2f">
+                              <font>
+                                 <Font name="BM JUA OTF" size="18.0" />
+                              </font>
+                           </Button>
+                           <Button fx:id="edit" blendMode="HARD_LIGHT" mnemonicParsing="false" style="-fx-background-color: transparent;" text="edit" textFill="#4a3c2f">
+                              <font>
+                                 <Font name="BM JUA OTF" size="18.0" />
+                              </font>
+                           </Button>
+                        </children>
+                     </HBox>
+                     <HBox alignment="BOTTOM_LEFT" layoutX="32.0" prefHeight="126.0" prefWidth="296.0">
+                        <children>
+                           <TextField fx:id="weekNameText" prefHeight="51.0" prefWidth="242.0" promptText="week name!" style="-fx-background-color: transparent;">
+                              <font>
+                                 <Font name="BM JUA OTF" size="28.0" />
+                              </font>
+                           </TextField>
+                        </children>
+                     </HBox>
+                  </children>
+               </Pane>
+            </center>
+            <top>
+               <Pane prefHeight="183.0" prefWidth="1290.0" BorderPane.alignment="CENTER">
+                  <children>
+                     <Rectangle fx:id="headerRect" arcHeight="5.0" arcWidth="5.0" fill="#a9bc89" height="182.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1291.0" />
+                     <HBox alignment="CENTER" layoutX="9.0" prefHeight="174.0" prefWidth="1284.0">
+                        <children>
+                           <Label fx:id="headerLabel" alignment="TOP_CENTER" text="(^-^*) &lt;3" textFill="WHITE">
+                              <font>
+                                 <Font name="BM JUA OTF" size="44.0" />
+                              </font>
+                           </Label>
+                        </children>
+                     </HBox>
+                     <HBox layoutX="16.0" layoutY="12.0" prefHeight="88.0" prefWidth="184.0">
+                        <children>
+                           <Rectangle fx:id="changeThemeRect" arcHeight="5.0" arcWidth="5.0" fill="#afbc8b" height="29.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+                        </children>
+                     </HBox>
+                     <HBox layoutX="17.0" layoutY="13.0" prefHeight="87.0" prefWidth="183.0">
+                        <children>
+                           <Button fx:id="changeTheme" mnemonicParsing="false" style="-fx-background-color: transparent;" text="change theme" textFill="WHITE">
+                              <font>
+                                 <Font name="BM JUA OTF" size="14.0" />
+                              </font>
+                           </Button>
+                        </children>
+                     </HBox>
+                  </children>
+               </Pane>
+            </top>
+            <left>
+               <Pane prefHeight="832.0" prefWidth="272.0" BorderPane.alignment="CENTER">
+                  <children>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="499.0" layoutX="62.0" layoutY="143.0" stroke="#d9baab" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="2.0" width="208.0" />
+                     <Label fx:id="taskQueueLabel" layoutX="63.0" layoutY="84.0" prefHeight="40.0" prefWidth="242.0" text="Task Queue" textFill="#a1b58a">
+                        <font>
+                           <Font name="BM JUA OTF" size="28.0" />
+                        </font>
+                     </Label>
+                     <VBox fx:id="taskQueueBox" layoutX="66.0" layoutY="148.0" prefHeight="492.0" prefWidth="201.0" />
+                  </children>
+               </Pane>
+            </left>
+            <right>
+               <Pane prefHeight="832.0" prefWidth="360.0" BorderPane.alignment="CENTER">
+                  <children>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="236.0" layoutX="66.0" layoutY="144.0" stroke="#d9baab" strokeType="INSIDE" strokeWidth="2.0" width="239.0" />
+                     <HBox layoutX="77.0" layoutY="153.0" prefHeight="218.0" prefWidth="218.0">
+                        <children>
+                           <TextArea fx:id="quotesArea" prefHeight="218.0" prefWidth="464.0" promptText="add quotes or notes here!" style="-fx-background-color: transparent;">
+                              <font>
+                                 <Font name="BM JUA OTF" size="13.0" />
+                              </font>
+                           </TextArea>
+                        </children>
+                     </HBox>
+                     <HBox alignment="BOTTOM_LEFT" layoutX="67.0" layoutY="54.0" prefHeight="69.0" prefWidth="410.0">
+                        <children>
+                           <Label fx:id="quotesLabel" text="Quotes or Notes" textFill="#a1b58a">
+                              <font>
+                                 <Font name="BM JUA OTF" size="26.0" />
+                              </font>
+                           </Label>
+                        </children>
+                     </HBox>
+                  </children></Pane>
+            </right>
+            <bottom>
+               <Pane prefHeight="90.0" prefWidth="1290.0" BorderPane.alignment="CENTER">
+                  <children>
+                     <HBox layoutX="320.0" prefHeight="23.0" prefWidth="633.0">
+                        <children>
+                           <Label fx:id="sortTasksLabel" prefHeight="23.0" prefWidth="99.0" text="sort tasks by:" textFill="#a1b58a">
+                              <font>
+                                 <Font name="BM JUA OTF" size="15.0" />
+                              </font>
+                           </Label>
+                        </children>
+                     </HBox>
+                     <HBox layoutX="317.0" layoutY="24.0" prefHeight="39.0" prefWidth="299.0">
+                        <children>
+                           <Rectangle fx:id="tasksNameRect" arcHeight="5.0" arcWidth="5.0" fill="#ffe6dd" height="34.0" stroke="#e5c1c100" strokeType="INSIDE" width="58.0" />
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe6de00" height="27.0" stroke="#e5c1c100" strokeType="INSIDE" width="8.0" />
+                           <Rectangle fx:id="tasksDurRect" arcHeight="5.0" arcWidth="5.0" fill="#ffe6dd" height="34.0" stroke="#e5c1c100" strokeType="INSIDE" width="105.0" />
+                        </children>
+                     </HBox>
+                     <HBox layoutX="314.0" layoutY="22.0" prefHeight="66.0" prefWidth="639.0">
+                        <children>
+                           <Button fx:id="sortByNameTask" blendMode="HARD_LIGHT" mnemonicParsing="false" style="-fx-background-color: transparent;" text="name" textFill="#4a3c2f">
+                              <font>
+                                 <Font name="BM JUA OTF" size="18.0" />
+                              </font>
+                           </Button>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe6de00" height="27.0" stroke="#e5c1c100" strokeType="INSIDE" width="6.0" />
+                           <Button fx:id="sortByDurationTask" blendMode="HARD_LIGHT" mnemonicParsing="false" style="-fx-background-color: transparent;" text="completion" textFill="#4a3c2f">
+                              <font>
+                                 <Font name="BM JUA OTF" size="18.0" />
+                              </font>
+                           </Button>
+                        </children>
+                     </HBox>
+                     <HBox layoutX="496.0" layoutY="3.0" prefHeight="21.0" prefWidth="467.0">
+                        <children>
+                           <Label fx:id="sortEventsLabel" prefHeight="20.0" prefWidth="110.0" text="sort events by:" textFill="#a1b58a">
+                              <font>
+                                 <Font name="BM JUA OTF" size="15.0" />
+                              </font>
+                           </Label>
+                        </children>
+                     </HBox>
+                     <HBox layoutX="498.0" layoutY="24.0" prefHeight="31.0" prefWidth="240.0">
+                        <children>
+                           <Rectangle fx:id="eventNameRect" arcHeight="5.0" arcWidth="5.0" fill="#ffe6dd" height="34.0" stroke="#e5c1c100" strokeType="INSIDE" width="58.0" />
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe6de00" height="27.0" stroke="#e5c1c100" strokeType="INSIDE" width="8.0" />
+                           <Rectangle fx:id="eventDurRect" arcHeight="5.0" arcWidth="5.0" fill="#ffe6dd" height="34.0" stroke="#e5c1c100" strokeType="INSIDE" width="94.0" />
+                        </children>
+                     </HBox>
+                     <HBox layoutX="497.0" layoutY="22.0" prefHeight="36.0" prefWidth="168.0">
+                        <children>
+                           <Button fx:id="sortByNameEvent" blendMode="HARD_LIGHT" mnemonicParsing="false" style="-fx-background-color: transparent;" text="name" textFill="#4a3c2f">
+                              <font>
+                                 <Font name="BM JUA OTF" size="18.0" />
+                              </font>
+                           </Button>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe6de00" height="27.0" stroke="#e5c1c100" strokeType="INSIDE" width="6.0" />
+                           <Button fx:id="sortByDurationEvent" blendMode="HARD_LIGHT" mnemonicParsing="false" style="-fx-background-color: transparent;" text="duration" textFill="#4a3c2f">
+                              <font>
+                                 <Font name="BM JUA OTF" size="18.0" />
+                              </font>
+                           </Button>
+                        </children>
+                     </HBox>
+                  </children></Pane>
+            </bottom>
+         </BorderPane>
+      </children></AnchorPane>
+</Scene>
